@@ -2,47 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Maliza Shule</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<!-- Use HTTPS to ensure secure communication -->
-	<script>
-	if (location.protocol !== 'https:') {
-		location.replace(`https:${location.href.substring(location.protocol.length)}`);
-	}
-	</script>
-	
-	<!-- Set content security policy to prevent XSS attacks -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-	
-	<!-- Prevent clickjacking attacks -->
-	<style>
-	html {
-		display: none;
-	}
-	</style>
-	<script>
-	if (self === top) {
-		document.documentElement.style.display = 'block';
-	} else {
-		top.location = self.location;
-	}
-	</script>
-	
-	<!-- Disable caching to prevent sensitive information from being stored -->
-	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-	<meta http-equiv="Pragma" content="no-cache">
-	<meta http-equiv="Expires" content="0">
-	
-	<!-- Use strict transport security to ensure HTTPS is used -->
-	<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains">
-	
-	<!-- Allow access from local IP address for testing -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self' 127.0.0.1">
-	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 <body>
 	<header>
