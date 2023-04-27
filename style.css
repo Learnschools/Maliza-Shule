@@ -1,0 +1,319 @@
+/* Set a sky blue background color for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;  
+  background-color: #87CEEB;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  /* Style the logo */
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  #banner {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #banner h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #banner p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  #services h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #services ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #services li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #000;
+  }
+  
+  /* Style the contact information section */
+  #contact {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  #contact h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* Style the call and WhatsApp Button section */
+.whatsapp-button {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  z-index: 9999;
+}
+
+.call-button {
+  position: fixed;
+  right: 100px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.whatsapp-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #25d366;
+  border-radius: 50%;
+  color: rgba(7, 7, 7,);
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.call-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #007bff;
+  border-radius: 50%;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-button a:hover {
+  background-color: #128c7e;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.call-button a:hover {
+  background-color: #0069d9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button a i, .call-button a i {
+  margin-right: 10px;
+}
+
+.whatsapp-button a span, .call-button a span {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* Make the website responsive for smaller screens */
+@media (max-width: 768px) {
+  /* Reduce the size of the header logo */
+  header img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Adjust the padding of the header and navigation menu */
+  header {
+    padding: 5px;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Reduce the font size of the navigation links */
+  nav a {
+    font-size: 16px;
+  }
+
+  /* Adjust the size and spacing of the banner content */
+  #banner h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  #banner p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  /* Reduce the font size and spacing of the services section */
+  #services h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  #services li {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  /* Adjust the size and spacing of the contact information section */
+  #contact h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  #contact p {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  /* Adjust the size and spacing of the footer */
+  footer p {
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  /* Adjust the size and spacing of the call and WhatsApp buttons */
+  .whatsapp-button,
+  .call-button {
+    width: 50px;
+    height: 50px;
+    right: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .whatsapp-button a {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .call-button a {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+} /* end of media query */
